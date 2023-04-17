@@ -86,11 +86,147 @@
         </body>
           
     </div>
-    <div class="max-w-[1380px] mx-auto py-4">
-          <div class="flex items-center gap-4 bg-blue-500 w-fit py-3 px-5 rounded text-white">
-            <img class="w-[20px] h-[20px]" src="/wordpress.svg" alt="">
-            <p>Wordpress</p>
+    <div class="max-w-[1380px] mx-auto p-4">
+      <div class="flex items-center gap-4 justify-center">
+        <div class="flex items-center gap-4 bg-blue-500 w-fit py-3 px-5 rounded text-white">
+          <img class="w-[20px] h-[20px]" src="/wordpress.svg" alt="">
+          <p>Wordpress</p>
+        </div>
+        <div class="flex items-center gap-4 border w-fit py-3 px-5 rounded">
+          <img class="w-[20px] h-[20px]" src="/wordpress.svg" alt="">
+          <p>Web Templates</p>
+        </div>
+        <div class="flex items-center gap-4 border w-fit py-3 px-5 rounded">
+          <img class="w-[20px] h-[20px]" src="/wordpress.svg" alt="">
+          <p>Graphic Design</p>
+        </div>
+        <div class="flex items-center gap-4 border w-fit py-3 px-5 rounded">
+          <img class="w-[20px] h-[20px]" src="/wordpress.svg" alt="">
+          <p>Logo</p>
+        </div>
+      </div>
+      <div class="p-4">
+        <div class="flex justify-between items-center gap-4">
+          <p class="font-bold text-[20px]">Best WordPress Themes and Plugins to Download</p>
+          <button class="font-bold text-[#2196f3]">Browse and Download</button>
+        </div>
+        <div class="grid grid-cols-3 gap-4 py-4">
+          <div class="shadow">
+            <nuxt-link to="#">
+              <div>
+                <img class="w-full" src="theme_1.webp" alt="">
+              </div>
+              <div class="p-4">
+                <div class="flex items-center justify-between gap-4">
+                  <img class="max-w-[20px]" src="wordpress.svg" alt="">
+                  <p>Monstroid2 - Multipurpose Modular WordPress</p>
+                </div>              
+                <p>By: ASDF</p>
+                <div class="mt-6 flex items-center justify-between gap-4" >
+                  <div class="flex items-center gap-1">
+                    <img src="star.svg" alt="">
+                    <img src="star.svg" alt="">
+                    <img src="star.svg" alt="">
+                    <img src="star.svg" alt="">
+                    <img src="star.svg" alt="">
+                  </div>
+                  <div class="">
+                    <div class="flex items-center gap-1">
+                      <img src="rocket.svg" alt="">
+                      <img src="rocket.svg" alt="">
+                      <img src="rocket.svg" alt="">
+                    </div>
+                  </div>
+                </div>
+                <div class="flex items-center justify-between gap-4 py-2">
+                  <p>1234 <span>Sales</span></p>
+                  <p>$82</p>
+                </div>
+              </div>
+            </nuxt-link>
+            <div class="flex justify-between items-center p-4 gap-4 text-white">
+              <button class="bg-[#7a929e] w-[200px] py-2">Details</button>
+              <button class="bg-[#00a3ff] w-[200px] py-2">Live Demo</button>
+            </div>
+          </div>
+          <div class="shadow">
+            <nuxt-link to="#">
+              <div>
+                <img class="w-full" src="theme_1.webp" alt="">
+              </div>
+              <div class="p-4">
+                <div class="flex items-center justify-between gap-4">
+                  <img class="max-w-[20px]" src="wordpress.svg" alt="">
+                  <p>Monstroid2 - Multipurpose Modular WordPress</p>
+                </div>              
+                <p>By: ASDF</p>
+                <div class="mt-6 flex items-center justify-between gap-4" >
+                  <div class="flex items-center gap-1">
+                    <img src="star.svg" alt="">
+                    <img src="star.svg" alt="">
+                    <img src="star.svg" alt="">
+                    <img src="star.svg" alt="">
+                    <img src="star.svg" alt="">
+                  </div>
+                  <div class="">
+                    <div class="flex items-center gap-1">
+                      <img src="rocket.svg" alt="">
+                      <img src="rocket.svg" alt="">
+                      <img src="rocket.svg" alt="">
+                    </div>
+                  </div>
+                </div>
+                <div class="flex items-center justify-between gap-4 py-2">
+                  <p>1234 <span>Sales</span></p>
+                  <p>$82</p>
+                </div>
+              </div>
+            </nuxt-link>
+            <div class="flex justify-between items-center p-4 gap-4 text-white">
+              <button class="bg-[#7a929e] w-[200px] py-2">Details</button>
+              <button class="bg-[#00a3ff] w-[200px] py-2">Live Demo</button>
+            </div>
+          </div>
+          <div class="shadow">
+            <nuxt-link to="#">
+              <div>
+                <img class="w-full" src="theme_1.webp" alt="">
+              </div>
+              <div class="p-4">
+                <div class="flex items-center justify-between gap-4">
+                  <img class="max-w-[20px]" src="wordpress.svg" alt="">
+                  <p>Monstroid2 - Multipurpose Modular WordPress</p>
+                </div>              
+                <p>By: ASDF</p>
+                <div class="mt-6 flex items-center justify-between gap-4" >
+                  <div class="flex items-center gap-1">
+                    <img src="star.svg" alt="">
+                    <img src="star.svg" alt="">
+                    <img src="star.svg" alt="">
+                    <img src="star.svg" alt="">
+                    <img src="star.svg" alt="">
+                  </div>
+                  <div class="">
+                    <div class="flex items-center gap-1">
+                      <img src="rocket.svg" alt="">
+                      <img src="rocket.svg" alt="">
+                      <img src="rocket.svg" alt="">
+                    </div>
+                  </div>
+                </div>
+                <div class="flex items-center justify-between gap-4 py-2">
+                  <p>1234 <span>Sales</span></p>
+                  <p>$82</p>
+                </div>
+              </div>
+            </nuxt-link>
+            <div class="flex justify-between items-center p-4 gap-4 text-white">
+              <button class="bg-[#7a929e] w-[200px] py-2">Details</button>
+              <button class="bg-[#00a3ff] w-[200px] py-2">Live Demo</button>
+            </div>
           </div>
         </div>
+      </div>
+    </div>
   </div>
 </template>
