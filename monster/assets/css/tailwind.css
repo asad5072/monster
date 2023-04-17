@@ -1,0 +1,45 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Define the "system" font family */
+@font-face {
+  font-family: system-ui;
+  font-style: normal;
+  font-weight: 300;
+  src: local(".SFNSText-Light"), local(".HelveticaNeueDeskInterface-Light"), local(".LucidaGrandeUI"), local("Ubuntu Light"), local("Segoe UI Light"), local("Roboto-Light"), local("DroidSans"), local("Tahoma");
+}
+
+/* Now, let's apply it on an element */
+body {
+  font-family: "system-ui";
+  color: #243238;
+}
+
+.bg1 {
+  background: linear-gradient(252.02deg,#ff9f5a 24.25%,#e90870 75.5%);
+  color: #fff;
+  top: -40px;
+  z-index: 99990;
+}
+.header-button-arrow {
+  border-color: #b3c8e7 #0000 #0000;
+  border-style: solid;
+  border-width: 5px 6px 0;
+  display: inline-block;
+  height: 0;
+  width: 0
+}
+.search-button{
+  fill: #b3c8e7;
+}
+.header-button-icon{
+  fill: #fff;
+  cursor: pointer;
+}
+.header-button-icon-2{
+  fill: #31af36;
+}
+.showcase {
+  background: linear-gradient(360deg, #C2DEFF 0%, #FFFFFF 100%);
+}
