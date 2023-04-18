@@ -30,7 +30,10 @@ body {
   height: 0;
   width: 0
 }
-.search-button{
+.search-button,
+.love,
+.login,
+.cart{
   fill: #b3c8e7;
 }
 .header-button-icon{
@@ -42,4 +45,16 @@ body {
 }
 .showcase {
   background: linear-gradient(360deg, #C2DEFF 0%, #FFFFFF 100%);
+}
+.join_content {
+  margin-bottom: 20px;
+  padding: 40px 40px 47px;
+  background: linear-gradient(180deg, rgba(239, 241, 255, 1) 0%, rgba(255, 255, 255, 1) 100%);
+  border: 1px solid #fff;
+  border-radius: 5px;
+}
+.join_item {
+  background: #fff;
+  box-shadow: 0px 6px 12px rgba(204, 211, 215, 0.7);
+  border-radius: 3px;
 }
